@@ -1,0 +1,17 @@
+@'
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+workspace/
+data/
+data_demo/
+*.db
+*.db-wal
+*.db-shm
+build.log
+.streamlit/secrets.toml
+.vscode/
+'@ | Set-Content -Path .gitignore -Encoding ascii
